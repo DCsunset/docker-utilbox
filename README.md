@@ -15,6 +15,8 @@ The utils currently provided on top of alpine:
 * iotop
 * iftop
 * file
+* httpie
+* iperf3
 * openssl
 * openssh
 

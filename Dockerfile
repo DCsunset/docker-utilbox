@@ -9,7 +9,10 @@ RUN apk --no-cache add \
 	iotop \
 	iftop \
 	file \
+	httpie \
+	iperf3 \
 	openssl \
 	openssh
 
 CMD ["sh"]
+
