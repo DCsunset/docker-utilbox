@@ -12,7 +12,8 @@ RUN apk --no-cache add \
 	httpie \
 	iperf3 \
 	openssl \
-	openssh
+	openssh \
+	bind-tools
 
 CMD ["sh"]
 
