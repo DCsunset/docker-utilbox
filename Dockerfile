@@ -4,6 +4,7 @@ LABEL MAINTAINER="DCsunset"
 
 RUN apk --no-cache add \
 	curl \
+	wget \
 	vim \
 	htop \
 	iotop \
@@ -13,7 +14,6 @@ RUN apk --no-cache add \
 	iperf3 \
 	openssl \
 	openssh \
-	bind-tools
+	ldns
 
 CMD ["sh"]
-
