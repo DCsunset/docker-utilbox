@@ -9,10 +9,11 @@ The apps currently provided on top of alpine:
 
 * curl
 * vim
+* helix
 * wget
 * htop
 * iotop
-* iftop
+* bandwhich
 * file
 * httpie
 * iperf3
@@ -23,8 +24,11 @@ The apps currently provided on top of alpine:
 
 ## Installation
 
-```
+```sh
+# for docker
 docker pull dcsunset/utilbox
+# for podman
+podman pull docker.io/dcsunset/utilbox
 ```
 
 ## License
